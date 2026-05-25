@@ -8,6 +8,9 @@ dist/
 build/
 .eggs/
 
+# Datasets (not distributed via GitHub)
+datasets/
+
 # Training checkpoints (large binary files)
 results/*/stage2_*.pth
 results/*/stage3_*.pth
