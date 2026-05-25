@@ -64,7 +64,6 @@ GeoNum/
 │   └── viz.py              # Visualization utilities
 ├── pretrain_geonum.py      # Stage I: self-supervised polar pretraining
 ├── finetune_geonum_llm.py  # Stage II & III: alignment and end-to-end fine-tuning
-├── visualize_encoder.py    # Encoder geometry analysis
 ├── visualize_training.py   # Training curve figures
 └── datasets/
     ├── nupa/
@@ -158,11 +157,6 @@ Each run writes `train.log`, `progress.log`, `training.png`, and JSONL logs to `
 ### Visualization
 
 ```bash
-# Encoder geometry (t-SNE embedding structure, decimal circularity)
-python visualize_encoder.py \
-    --encoder_ckpt results/stage1_nupa/encoder.pth \
-    --out_dir      results/stage1_nupa/figures/
-
 # Stage II / III training curves
 python visualize_training.py --out_dir results/stage2_nupa
 ```
