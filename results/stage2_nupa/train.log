@@ -1,0 +1,30 @@
+GPU: 0  |  Stage II steps: 4000  |  Stage III steps: 8000
+Loading NUPA dataset...
+  train=256,000  val=32,000  test=32,000
+Caching GeoNum encoder embeddings...
+
+============================================================
+STAGE II  —  Numerical-Textual Alignment
+============================================================
+  AlignmentDecoder parameters: 23.26M
+  [II] step=  200 | loss=22.6436 | val ACC@1%=0.034 ACC@0.1%=0.002 | test ACC@1%=0.027
+  [II] step=  400 | loss=15.4162 | val ACC@1%=0.060 ACC@0.1%=0.005 | test ACC@1%=0.062
+  [II] step=  600 | loss=14.2235 | val ACC@1%=0.176 ACC@0.1%=0.019 | test ACC@1%=0.174
+  [II] step=  800 | loss=13.1386 | val ACC@1%=0.251 ACC@0.1%=0.030 | test ACC@1%=0.239
+  [II] step= 1000 | loss=12.4150 | val ACC@1%=0.252 ACC@0.1%=0.030 | test ACC@1%=0.256
+  [II] step= 1200 | loss=12.1811 | val ACC@1%=0.291 ACC@0.1%=0.035 | test ACC@1%=0.288
+  [II] step= 1400 | loss=11.9555 | val ACC@1%=0.290 ACC@0.1%=0.036 | test ACC@1%=0.287
+  [II] step= 1600 | loss=11.7160 | val ACC@1%=0.317 ACC@0.1%=0.039 | test ACC@1%=0.322
+  [II] step= 1800 | loss=11.4348 | val ACC@1%=0.435 ACC@0.1%=0.091 | test ACC@1%=0.434
+  [II] step= 2000 | loss=10.3894 | val ACC@1%=0.573 ACC@0.1%=0.245 | test ACC@1%=0.577
+  [II] step= 2200 | loss=9.7532 | val ACC@1%=0.593 ACC@0.1%=0.255 | test ACC@1%=0.596
+  [II] step= 2400 | loss=9.4891 | val ACC@1%=0.599 ACC@0.1%=0.263 | test ACC@1%=0.607
+  [II] step= 2600 | loss=9.3494 | val ACC@1%=0.597 ACC@0.1%=0.259 | test ACC@1%=0.589
+  [II] step= 2800 | loss=9.2336 | val ACC@1%=0.606 ACC@0.1%=0.260 | test ACC@1%=0.605
+  [II] step= 3000 | loss=9.1436 | val ACC@1%=0.616 ACC@0.1%=0.281 | test ACC@1%=0.622
+  [II] step= 3200 | loss=9.0730 | val ACC@1%=0.609 ACC@0.1%=0.272 | test ACC@1%=0.617
+  [II] step= 3400 | loss=9.0190 | val ACC@1%=0.626 ACC@0.1%=0.285 | test ACC@1%=0.626
+  [II] step= 3600 | loss=8.9696 | val ACC@1%=0.623 ACC@0.1%=0.278 | test ACC@1%=0.620
+  [II] step= 3800 | loss=8.9349 | val ACC@1%=0.630 ACC@0.1%=0.287 | test ACC@1%=0.625
+  [II] step= 4000 | loss=8.9133 | val ACC@1%=0.613 ACC@0.1%=0.275 | test ACC@1%=0.613
+Stage II done.  Best val ACC@1% = 0.630
