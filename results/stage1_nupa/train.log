@@ -1,0 +1,34 @@
+Train 512,000 | batch 1024 | 500 steps/epoch | scalars from JSON a/b fields (NUPA)
+Parameters: 118,089
+  ep  1 | loss=2.2483 | val  ACC@5%=0.9754  ACC@1%=0.9701  ACC@0.1%=0.9530 | test ACC@1%=0.9704  ACC@0.1%=0.9540
+  ep  2 | loss=0.8955 | val  ACC@5%=0.9975  ACC@1%=0.9974  ACC@0.1%=0.9910 | test ACC@1%=0.9974  ACC@0.1%=0.9914
+  ep  3 | loss=0.5160 | val  ACC@5%=0.9979  ACC@1%=0.9979  ACC@0.1%=0.9930 | test ACC@1%=0.9980  ACC@0.1%=0.9929
+  ep  4 | loss=0.3093 | val  ACC@5%=0.9993  ACC@1%=0.9993  ACC@0.1%=0.9956 | test ACC@1%=0.9995  ACC@0.1%=0.9954
+  ep  5 | loss=0.2375 | val  ACC@5%=0.9998  ACC@1%=0.9998  ACC@0.1%=0.9966 | test ACC@1%=0.9998  ACC@0.1%=0.9967
+  ep  6 | loss=0.1730 | val  ACC@5%=1.0000  ACC@1%=1.0000  ACC@0.1%=0.9963 | test ACC@1%=1.0000  ACC@0.1%=0.9965
+  ep  7 | loss=0.1675 | val  ACC@5%=0.9997  ACC@1%=0.9997  ACC@0.1%=0.9966 | test ACC@1%=0.9999  ACC@0.1%=0.9967
+  ep  8 | loss=0.1297 | val  ACC@5%=1.0000  ACC@1%=1.0000  ACC@0.1%=0.9979 | test ACC@1%=1.0000  ACC@0.1%=0.9977
+  ep  9 | loss=0.1001 | val  ACC@5%=0.9999  ACC@1%=0.9999  ACC@0.1%=0.9988 | test ACC@1%=0.9999  ACC@0.1%=0.9986
+  ep 10 | loss=0.0781 | val  ACC@5%=1.0000  ACC@1%=1.0000  ACC@0.1%=0.9987 | test ACC@1%=1.0000  ACC@0.1%=0.9987
+  ep 11 | loss=0.0776 | val  ACC@5%=1.0000  ACC@1%=1.0000  ACC@0.1%=0.9988 | test ACC@1%=1.0000  ACC@0.1%=0.9991
+  ep 12 | loss=0.0558 | val  ACC@5%=1.0000  ACC@1%=1.0000  ACC@0.1%=0.9988 | test ACC@1%=1.0000  ACC@0.1%=0.9989
+  ep 13 | loss=0.0707 | val  ACC@5%=1.0000  ACC@1%=1.0000  ACC@0.1%=0.9989 | test ACC@1%=1.0000  ACC@0.1%=0.9989
+  ep 14 | loss=0.0884 | val  ACC@5%=1.0000  ACC@1%=1.0000  ACC@0.1%=0.9992 | test ACC@1%=1.0000  ACC@0.1%=0.9989
+  ep 15 | loss=0.0811 | val  ACC@5%=1.0000  ACC@1%=1.0000  ACC@0.1%=0.9992 | test ACC@1%=1.0000  ACC@0.1%=0.9993
+  ep 16 | loss=0.0678 | val  ACC@5%=1.0000  ACC@1%=1.0000  ACC@0.1%=0.9992 | test ACC@1%=1.0000  ACC@0.1%=0.9990
+  ep 17 | loss=0.0511 | val  ACC@5%=1.0000  ACC@1%=1.0000  ACC@0.1%=0.9995 | test ACC@1%=1.0000  ACC@0.1%=0.9993
+  ep 18 | loss=0.0613 | val  ACC@5%=1.0000  ACC@1%=1.0000  ACC@0.1%=0.9997 | test ACC@1%=1.0000  ACC@0.1%=0.9995
+  ep 19 | loss=0.0593 | val  ACC@5%=1.0000  ACC@1%=1.0000  ACC@0.1%=0.9997 | test ACC@1%=1.0000  ACC@0.1%=0.9995
+  ep 20 | loss=0.0587 | val  ACC@5%=1.0000  ACC@1%=1.0000  ACC@0.1%=0.9996 | test ACC@1%=1.0000  ACC@0.1%=0.9997
+  ep 21 | loss=0.0548 | val  ACC@5%=1.0000  ACC@1%=1.0000  ACC@0.1%=0.9999 | test ACC@1%=1.0000  ACC@0.1%=0.9998
+  ep 22 | loss=0.0506 | val  ACC@5%=1.0000  ACC@1%=1.0000  ACC@0.1%=0.9997 | test ACC@1%=1.0000  ACC@0.1%=0.9995
+  ep 23 | loss=0.0473 | val  ACC@5%=1.0000  ACC@1%=1.0000  ACC@0.1%=1.0000 | test ACC@1%=1.0000  ACC@0.1%=1.0000
+  ep 24 | loss=0.0473 | val  ACC@5%=1.0000  ACC@1%=1.0000  ACC@0.1%=0.9999 | test ACC@1%=1.0000  ACC@0.1%=1.0000
+  ep 25 | loss=0.0518 | val  ACC@5%=1.0000  ACC@1%=1.0000  ACC@0.1%=0.9998 | test ACC@1%=1.0000  ACC@0.1%=0.9998
+  ep 26 | loss=0.0497 | val  ACC@5%=1.0000  ACC@1%=1.0000  ACC@0.1%=1.0000 | test ACC@1%=1.0000  ACC@0.1%=1.0000
+  ep 27 | loss=0.0475 | val  ACC@5%=1.0000  ACC@1%=1.0000  ACC@0.1%=1.0000 | test ACC@1%=1.0000  ACC@0.1%=1.0000
+  ep 28 | loss=0.0485 | val  ACC@5%=1.0000  ACC@1%=1.0000  ACC@0.1%=1.0000 | test ACC@1%=1.0000  ACC@0.1%=1.0000
+  ep 29 | loss=0.0492 | val  ACC@5%=1.0000  ACC@1%=1.0000  ACC@0.1%=1.0000 | test ACC@1%=1.0000  ACC@0.1%=1.0000
+  ep 30 | loss=0.0492 | val  ACC@5%=1.0000  ACC@1%=1.0000  ACC@0.1%=1.0000 | test ACC@1%=1.0000  ACC@0.1%=1.0000
+
+Encoder saved → results/stage1_nupa/encoder.pth

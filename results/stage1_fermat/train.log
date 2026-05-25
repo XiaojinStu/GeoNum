@@ -1,0 +1,34 @@
+Train 320,000 | batch 1024 | 313 steps/epoch | scalars ±[0.1, 500.0] (uniform)
+Parameters: 118,089
+  ep  1 | loss=1.1307 | val  ACC@5%=0.9978  ACC@1%=0.9909  ACC@0.1%=0.9175 | test ACC@1%=0.9909  ACC@0.1%=0.9203
+  ep  2 | loss=0.4252 | val  ACC@5%=0.9978  ACC@1%=0.9906  ACC@0.1%=0.9281 | test ACC@1%=0.9903  ACC@0.1%=0.9284
+  ep  3 | loss=0.2204 | val  ACC@5%=0.9990  ACC@1%=0.9944  ACC@0.1%=0.9432 | test ACC@1%=0.9940  ACC@0.1%=0.9443
+  ep  4 | loss=0.1286 | val  ACC@5%=0.9991  ACC@1%=0.9954  ACC@0.1%=0.9544 | test ACC@1%=0.9954  ACC@0.1%=0.9528
+  ep  5 | loss=0.0972 | val  ACC@5%=0.9995  ACC@1%=0.9971  ACC@0.1%=0.9676 | test ACC@1%=0.9970  ACC@0.1%=0.9686
+  ep  6 | loss=0.1060 | val  ACC@5%=0.9987  ACC@1%=0.9940  ACC@0.1%=0.9529 | test ACC@1%=0.9940  ACC@0.1%=0.9536
+  ep  7 | loss=0.0881 | val  ACC@5%=0.9992  ACC@1%=0.9958  ACC@0.1%=0.9658 | test ACC@1%=0.9952  ACC@0.1%=0.9664
+  ep  8 | loss=0.0701 | val  ACC@5%=0.9994  ACC@1%=0.9960  ACC@0.1%=0.9669 | test ACC@1%=0.9959  ACC@0.1%=0.9677
+  ep  9 | loss=0.0915 | val  ACC@5%=0.9991  ACC@1%=0.9961  ACC@0.1%=0.9645 | test ACC@1%=0.9961  ACC@0.1%=0.9655
+  ep 10 | loss=0.0597 | val  ACC@5%=0.9996  ACC@1%=0.9970  ACC@0.1%=0.9722 | test ACC@1%=0.9973  ACC@0.1%=0.9733
+  ep 11 | loss=0.0651 | val  ACC@5%=0.9990  ACC@1%=0.9960  ACC@0.1%=0.9764 | test ACC@1%=0.9964  ACC@0.1%=0.9764
+  ep 12 | loss=0.0884 | val  ACC@5%=0.9981  ACC@1%=0.9950  ACC@0.1%=0.9646 | test ACC@1%=0.9950  ACC@0.1%=0.9656
+  ep 13 | loss=0.0554 | val  ACC@5%=0.9985  ACC@1%=0.9938  ACC@0.1%=0.9539 | test ACC@1%=0.9937  ACC@0.1%=0.9564
+  ep 14 | loss=0.0417 | val  ACC@5%=0.9994  ACC@1%=0.9971  ACC@0.1%=0.9740 | test ACC@1%=0.9968  ACC@0.1%=0.9738
+  ep 15 | loss=0.0469 | val  ACC@5%=0.9993  ACC@1%=0.9970  ACC@0.1%=0.9780 | test ACC@1%=0.9971  ACC@0.1%=0.9791
+  ep 16 | loss=0.0476 | val  ACC@5%=0.9995  ACC@1%=0.9976  ACC@0.1%=0.9744 | test ACC@1%=0.9976  ACC@0.1%=0.9761
+  ep 17 | loss=0.0422 | val  ACC@5%=0.9997  ACC@1%=0.9975  ACC@0.1%=0.9806 | test ACC@1%=0.9978  ACC@0.1%=0.9808
+  ep 18 | loss=0.0532 | val  ACC@5%=0.9994  ACC@1%=0.9963  ACC@0.1%=0.9718 | test ACC@1%=0.9964  ACC@0.1%=0.9718
+  ep 19 | loss=0.0364 | val  ACC@5%=0.9993  ACC@1%=0.9970  ACC@0.1%=0.9800 | test ACC@1%=0.9970  ACC@0.1%=0.9810
+  ep 20 | loss=0.0360 | val  ACC@5%=0.9997  ACC@1%=0.9982  ACC@0.1%=0.9819 | test ACC@1%=0.9981  ACC@0.1%=0.9818
+  ep 21 | loss=0.0337 | val  ACC@5%=0.9998  ACC@1%=0.9980  ACC@0.1%=0.9853 | test ACC@1%=0.9980  ACC@0.1%=0.9859
+  ep 22 | loss=0.0347 | val  ACC@5%=0.9998  ACC@1%=0.9981  ACC@0.1%=0.9815 | test ACC@1%=0.9984  ACC@0.1%=0.9818
+  ep 23 | loss=0.0334 | val  ACC@5%=0.9997  ACC@1%=0.9984  ACC@0.1%=0.9839 | test ACC@1%=0.9984  ACC@0.1%=0.9848
+  ep 24 | loss=0.0323 | val  ACC@5%=0.9998  ACC@1%=0.9984  ACC@0.1%=0.9862 | test ACC@1%=0.9985  ACC@0.1%=0.9867
+  ep 25 | loss=0.0334 | val  ACC@5%=0.9997  ACC@1%=0.9985  ACC@0.1%=0.9850 | test ACC@1%=0.9987  ACC@0.1%=0.9847
+  ep 26 | loss=0.0274 | val  ACC@5%=0.9996  ACC@1%=0.9986  ACC@0.1%=0.9859 | test ACC@1%=0.9986  ACC@0.1%=0.9865
+  ep 27 | loss=0.0298 | val  ACC@5%=0.9997  ACC@1%=0.9985  ACC@0.1%=0.9837 | test ACC@1%=0.9986  ACC@0.1%=0.9839
+  ep 28 | loss=0.0286 | val  ACC@5%=0.9997  ACC@1%=0.9986  ACC@0.1%=0.9875 | test ACC@1%=0.9987  ACC@0.1%=0.9877
+  ep 29 | loss=0.0280 | val  ACC@5%=0.9998  ACC@1%=0.9985  ACC@0.1%=0.9871 | test ACC@1%=0.9988  ACC@0.1%=0.9880
+  ep 30 | loss=0.0274 | val  ACC@5%=0.9998  ACC@1%=0.9984  ACC@0.1%=0.9872 | test ACC@1%=0.9987  ACC@0.1%=0.9883
+
+Encoder saved → results/stage1_fermat/encoder.pth
